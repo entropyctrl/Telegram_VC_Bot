@@ -7,10 +7,10 @@ if HEROKU:
     from dotenv import load_dotenv
 
     load_dotenv()  # take environment variables from .env.
-    API_ID = int(environ["API_ID"])
-    API_HASH = environ["API_HASH"]
+    API_ID = int(environ["34565305"])
+    API_HASH = environ["934efb3f8005e52b1c36de63c43f40ef"]
     SESSION_STRING = environ[
-        "SESSION_STRING"
+        "BQIPbLkAWIzvygBpACjg8Sb-8lGJ891lc9xaVWjVWPb_xNYDYo2kjE2z_lRv2P7nHcb0lZFzcnkK__Fd3WpIV4ziLB2j8z4PMPvL07HmmunwyP0-f69sY72wWDf49PGHepwI-8ppUE0J3HN4k05UxLaI8fMV2ibqFxqb5uoYsTRmXGPH_NMfKH8Vyuy3aXPBY5sqQKkn8La__nzN399l4LaZhy009IPrgjvZZJ0bXU3fOCAj5EH0waxrnIB41JNbPaNo15WqOsyvLdoFTZ-Q3ZWuhCqmV7r5pLlXrmxew3mNgWXLJ6H5lzv51gviDVoOQvT6gz-u2RmPhXLFippX8zf6B4dPuQAAAAHnSyeEAA"
     ]  # Check Readme for session
     ARQ_API_KEY = environ["ARQ_API_KEY"]
     CHAT_ID = int(environ["CHAT_ID"])
